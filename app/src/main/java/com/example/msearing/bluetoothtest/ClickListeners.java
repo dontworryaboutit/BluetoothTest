@@ -14,7 +14,7 @@ public class ClickListeners {
             @Override
             public void onClick(View view) {
                 Toast.makeText(activity, "you did button!", Toast.LENGTH_SHORT).show();
-                ((MyActivity) activity).switchFragment(new BLEFragment());
+                ((MyActivity) activity).switchFragment("BLE");
             }
         };
     }
